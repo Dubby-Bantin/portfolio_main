@@ -4,7 +4,7 @@ import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaCode } from "react-icons/fa6";
 
 interface ProjectCardProps {
-//   id: number;
+  //   id: number;
   title: string;
   desc: string;
   img: StaticImageData;
@@ -13,7 +13,7 @@ interface ProjectCardProps {
   git_link: string;
 }
 const ProjectCard = ({
-//   id,
+  //   id,
   title,
   desc,
   img,
@@ -54,6 +54,7 @@ const ProjectCard = ({
         <div className="flex items-center gap-2">
           <Link
             href={git_link}
+            target="_blank"
             className="text-right text-transparent font-heading font-bold bg-clip-text bg-gradient-to-t from-indigo-900 via-blue-500 to-neutral-200 bg-opacity-60"
           >
             Source code
@@ -63,6 +64,7 @@ const ProjectCard = ({
         <div className="flex items-center gap-2">
           <Link
             href={live_url}
+            target="_blank"
             className="text-right text-transparent font-heading font-bold bg-clip-text bg-gradient-to-t from-indigo-900 via-blue-500 to-neutral-200 bg-opacity-60"
           >
             Check Live Site
