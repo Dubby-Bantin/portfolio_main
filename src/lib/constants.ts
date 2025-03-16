@@ -10,11 +10,13 @@ import {
 } from "react-icons/fa";
 
 import nft from "../../public/images/projects/nft.png";
-import hoobank from "../../public//images/projects/hoo bank.png";
-import portfolio from "../../public//images/projects/portfolio.png";
-import tipvault from "../../public//images/projects/tipvault.png";
-import lectra from "../../public//images/projects/lectra.png";
-import vista from "../../public//images/projects/vista.png";
+import hoobank from "../../public/images/projects/hoo bank.png";
+import portfolio from "../../public/images/projects/portfolio.png";
+import tipvault from "../../public/images/projects/tipvault.png";
+import lectra from "../../public/images/projects/lectra.png";
+import vista from "../../public/images/projects/vista.png";
+import bmp from "../../public/images/projects/bmp_books.png";
+import nps from "../../public/images/projects/nps_usa.png";
 
 import javascript from "../../public/images/tech/javascript.png";
 import reactjs from "../../public/images/tech/reactjs.png";
@@ -22,6 +24,8 @@ import tailwind from "../../public/images/tech/tailwind.png";
 import typescript from "../../public/images/tech/typescript.png";
 import nextjs from "../../public/images/tech/next.png";
 import firebase from "../../public/images/tech/firebase.png";
+import convex from "../../public/images/tech/convex_logo.svg";
+// import firebase from "../../public/images/tech/firebase.png";
 const navLinks = [
   { link: "Development Strategy", path: "strategy" },
   { link: "Projects", path: "projects" },
@@ -35,6 +39,22 @@ const projects = [
     iconLists: [nextjs, tailwind, typescript, firebase],
     live_url: "https://lectra.vercel.app",
     git_link: "https://github.com/Dubby-Bantin/lectra",
+  },
+  {
+    title: "NPS USA",
+    desc: "A  top-tier security and hospitality company website",
+    img: nps,
+    iconLists: [nextjs, tailwind, typescript, convex],
+    live_url: "https://www.npssusa.com",
+    // git_link: "https://github.com/Dubby-Bantin/lectra",
+  },
+  {
+    title: "BPM_BOOKS",
+    desc: "A site dedicated for a book author",
+    img: bmp,
+    iconLists: [nextjs, tailwind, typescript],
+    live_url: "https://lectra.vercel.app",
+    // git_link: "https://github.com/Dubby-Bantin/lectra",
   },
   {
     title: "Decor Vista",

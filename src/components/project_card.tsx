@@ -51,16 +51,19 @@ const ProjectCard = ({
         ))}
       </div>
       <div className="flex items-center justify-between mt-4 ">
-        <div className="flex items-center gap-2">
-          <Link
-            href={git_link}
-            target="_blank"
-            className="text-right text-transparent font-heading font-bold bg-clip-text bg-gradient-to-t from-indigo-900 via-blue-500 to-neutral-200 bg-opacity-60"
-          >
-            Source code
-          </Link>
-          <FaCode className="text-blue-500 text-sm" />
-        </div>
+        {git_link && (
+          <div className="flex items-center gap-2">
+            <Link
+              href={git_link}
+              target="_blank"
+              className="text-right text-transparent font-heading font-bold bg-clip-text bg-gradient-to-t from-indigo-900 via-blue-500 to-neutral-200 bg-opacity-60"
+            >
+              Source code
+            </Link>
+            <FaCode className="text-blue-500 text-sm" />
+          </div>
+        )}
+
         <div className="flex items-center gap-2">
           <Link
             href={live_url}
