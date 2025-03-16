@@ -10,7 +10,7 @@ interface ProjectCardProps {
   img: StaticImageData;
   iconLists: StaticImageData[];
   live_url: string;
-  git_link: string;
+  git_link?: string;
 }
 const ProjectCard = ({
   //   id,

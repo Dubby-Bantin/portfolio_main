@@ -11,7 +11,7 @@ import {
 
 import nft from "../../public/images/projects/nft.png";
 import hoobank from "../../public/images/projects/hoo bank.png";
-import portfolio from "../../public/images/projects/portfolio.png";
+// import portfolio from "../../public/images/projects/portfolio.png";
 import tipvault from "../../public/images/projects/tipvault.png";
 import lectra from "../../public/images/projects/lectra.png";
 import vista from "../../public/images/projects/vista.png";
@@ -87,14 +87,6 @@ const projects = [
     iconLists: [reactjs, tailwind, typescript],
     live_url: "https://tipvault.vercel.app/",
     git_link: "https://github.com/Dubby-Bantin/tipvault",
-  },
-  {
-    title: "Portfolio Website",
-    desc: "A personal portfolio showcasing my projects, skills, and experiences. Designed to reflect my style and expertise.",
-    img: portfolio,
-    iconLists: [nextjs, tailwind, typescript, firebase],
-    live_url: "https://portfolio-ivory-seven-71.vercel.app/",
-    git_link: "https://github.com/Dubby-Bantin/portfolio",
   },
 ];
 
