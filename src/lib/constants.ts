@@ -69,7 +69,6 @@ const projects = [
     img: bmp,
     iconLists: [nextjs, tailwind, typescript],
     live_url: "https://lectra.vercel.app",
-    // git_link: "https://github.com/Dubby-Bantin/lectra",
   },
   {
     title: "Decor Vista",
