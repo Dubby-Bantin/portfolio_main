@@ -17,6 +17,7 @@ import lectra from "../../public/images/projects/lectra.png";
 import vista from "../../public/images/projects/vista.png";
 import bmp from "../../public/images/projects/bmp_books.png";
 import nps from "../../public/images/projects/nps_usa.png";
+import asta from "../../public/images/projects/asta.png";
 
 import javascript from "../../public/images/tech/javascript.png";
 import reactjs from "../../public/images/tech/reactjs.png";
@@ -47,6 +48,13 @@ const projects = [
     iconLists: [nextjs, tailwind, typescript, convex],
     live_url: "https://www.npssusa.com",
     // git_link: "https://github.com/Dubby-Bantin/lectra",
+  },
+  {
+    title: "ASTA USA",
+    desc: "A  top-tier advanced security academy company website",
+    img: asta,
+    iconLists: [nextjs, tailwind, typescript],
+    live_url: "advss-training-mbdz.vercel.app/",
   },
   {
     title: "BPM_BOOKS",
