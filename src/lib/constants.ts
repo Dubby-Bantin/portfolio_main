@@ -53,7 +53,7 @@ const projects = [
     desc: "A  top-tier advanced security academy company website",
     img: asta,
     iconLists: [nextjs, tailwind, typescript],
-    live_url: "advss-training-mbdz.vercel.app/",
+    live_url: "https://advss-training-mbdz.vercel.app/",
   },
   {
     title: "BPM_BOOKS",
