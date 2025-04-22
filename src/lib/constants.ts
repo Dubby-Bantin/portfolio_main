@@ -47,7 +47,6 @@ const projects = [
     img: nps,
     iconLists: [nextjs, tailwind, typescript, convex],
     live_url: "https://www.npssusa.com",
-    // git_link: "https://github.com/Dubby-Bantin/lectra",
   },
   {
     title: "ASTA USA",
