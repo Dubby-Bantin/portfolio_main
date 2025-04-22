@@ -18,6 +18,7 @@ import vista from "../../public/images/projects/vista.png";
 import bmp from "../../public/images/projects/bmp_books.png";
 import nps from "../../public/images/projects/nps_usa.png";
 import asta from "../../public/images/projects/asta.png";
+import abamba from "../../public/images/projects/abamba.png";
 
 import javascript from "../../public/images/tech/javascript.png";
 import reactjs from "../../public/images/tech/reactjs.png";
@@ -47,6 +48,13 @@ const projects = [
     img: nps,
     iconLists: [nextjs, tailwind, typescript, convex],
     live_url: "https://www.npssusa.com",
+  },
+  {
+    title: "ABAMBA",
+    desc: "E-commerce site",
+    img: abamba,
+    iconLists: [nextjs, tailwind, typescript, convex],
+    live_url: "#still under constrution",
   },
   {
     title: "ASTA USA",
