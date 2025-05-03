@@ -19,6 +19,7 @@ import asta from "../../public/images/projects/asta.png";
 import tgl from "../../public/images/projects/tgl.png";
 import novel from "../../public/images/projects/novel.png";
 import abamba from "../../public/images/projects/abamba.png";
+import bin_buddy from "../../public/images/projects/bin_buddy.png";
 
 import javascript from "../../public/images/tech/javascript.png";
 import reactjs from "../../public/images/tech/reactjs.png";
@@ -151,6 +152,46 @@ const projects = [
     live_url: "https://target-ochre.vercel.app/",
   },
   {
+    title: "ASTA USA",
+    desc: "A  top-tier advanced security training academy company website",
+    img: asta,
+    iconLists: [
+      {
+        name: "Nextjs",
+        image: nextjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Typescript",
+        image: typescript,
+      },
+    ],
+    live_url: "https://advss-training-mbdz.vercel.app/",
+  },
+  {
+    title: "Bin-Buddy",
+    desc: "Environmentally responsible waste disposal site for residential and commercial clients.",
+    img: bin_buddy,
+    iconLists: [
+      {
+        name: "Nextjs",
+        image: nextjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Typescript",
+        image: typescript,
+      },
+    ],
+    live_url: "https://bin-buddy-ten.vercel.app/",
+  },
+  {
     title: "Decor Vista",
     desc: "A Interior design Site",
     img: vista,
@@ -174,27 +215,6 @@ const projects = [
     ],
     live_url: "https://decor-vista-three.vercel.app/",
     git_link: "https://github.com/Dubby-Bantin/lectra",
-  },
-
-  {
-    title: "ASTA USA",
-    desc: "A  top-tier advanced security training academy company website",
-    img: asta,
-    iconLists: [
-      {
-        name: "Nextjs",
-        image: nextjs,
-      },
-      {
-        name: "Tailwind",
-        image: tailwind,
-      },
-      {
-        name: "Typescript",
-        image: typescript,
-      },
-    ],
-    live_url: "https://advss-training-mbdz.vercel.app/",
   },
 
   {
