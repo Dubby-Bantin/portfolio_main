@@ -135,3 +135,4 @@
 .text_gradient {
   @apply bg-gradient-to-t bg-clip-text text-transparent from-indigo-900 via-blue-500 to-neutral-200;
 }
+

@@ -11,23 +11,21 @@ import {
 
 import nft from "../../public/images/projects/nft.png";
 import hoobank from "../../public/images/projects/hoo bank.png";
-// import portfolio from "../../public/images/projects/portfolio.png";
 import tipvault from "../../public/images/projects/tipvault.png";
 import lectra from "../../public/images/projects/lectra.png";
 import vista from "../../public/images/projects/vista.png";
-import bmp from "../../public/images/projects/bmp_books.png";
 import nps from "../../public/images/projects/nps_usa.png";
 import asta from "../../public/images/projects/asta.png";
 import abamba from "../../public/images/projects/abamba.png";
 
 import javascript from "../../public/images/tech/javascript.png";
 import reactjs from "../../public/images/tech/reactjs.png";
+import django from "../../public/images/tech/django.svg";
 import tailwind from "../../public/images/tech/tailwind.png";
 import typescript from "../../public/images/tech/typescript.png";
 import nextjs from "../../public/images/tech/next.png";
 import firebase from "../../public/images/tech/firebase.png";
 import convex from "../../public/images/tech/convex_logo.svg";
-// import firebase from "../../public/images/tech/firebase.png";
 const navLinks = [
   { link: "Development Strategy", path: "strategy" },
   { link: "Projects", path: "projects" },
@@ -38,7 +36,25 @@ const projects = [
     title: "Lectra",
     desc: "A multilingual e-learning platform",
     img: lectra,
-    iconLists: [nextjs, tailwind, typescript, firebase],
+    iconLists: [
+      {
+        name: "Nextjs",
+        image: nextjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Typescript",
+        image: typescript,
+      },
+      {
+        name: "Firebase",
+        image: firebase,
+      },
+      ,
+    ],
     live_url: "https://lectra.vercel.app",
     git_link: "https://github.com/Dubby-Bantin/lectra",
   },
@@ -46,35 +62,93 @@ const projects = [
     title: "NPS USA",
     desc: "A  top-tier security and hospitality company website",
     img: nps,
-    iconLists: [nextjs, tailwind, typescript, convex],
+    iconLists: [
+      {
+        name: "Nextjs",
+        image: nextjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Typescript",
+        image: typescript,
+      },
+      {
+        name: "Convex",
+        image: convex,
+      },
+    ],
     live_url: "https://www.npssusa.com",
   },
   {
+    completed: false,
     title: "ABAMBA",
     desc: "E-commerce site",
     img: abamba,
-    iconLists: [nextjs, tailwind, typescript, convex],
+    iconLists: [
+      {
+        name: "Nextjs",
+        image: nextjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Typescript",
+        image: typescript,
+      },
+      {
+        name: "Convex",
+        image: convex,
+      },
+    ],
     live_url: "#still under constrution",
   },
   {
     title: "ASTA USA",
-    desc: "A  top-tier advanced security academy company website",
+    desc: "A  top-tier advanced security training academy company website",
     img: asta,
-    iconLists: [nextjs, tailwind, typescript],
+    iconLists: [
+      {
+        name: "Nextjs",
+        image: nextjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Typescript",
+        image: typescript,
+      },
+    ],
     live_url: "https://advss-training-mbdz.vercel.app/",
-  },
-  {
-    title: "BPM_BOOKS",
-    desc: "A site dedicated for a book author",
-    img: bmp,
-    iconLists: [nextjs, tailwind, typescript],
-    live_url: "https://lectra.vercel.app",
   },
   {
     title: "Decor Vista",
     desc: "A Interior design Site",
     img: vista,
-    iconLists: [nextjs, tailwind, typescript, firebase],
+    iconLists: [
+      {
+        name: "Nextjs",
+        image: nextjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Javascript",
+        image: javascript,
+      },
+      {
+        name: "Django",
+        image: django,
+      },
+    ],
     live_url: "https://decor-vista-three.vercel.app/",
     git_link: "https://github.com/Dubby-Bantin/lectra",
   },
@@ -82,7 +156,20 @@ const projects = [
     title: "NFT Site",
     desc: "Explore and manage NFTs with a sleek and user-friendly interface. Built with the latest web technologies.",
     img: nft,
-    iconLists: [reactjs, tailwind, javascript],
+    iconLists: [
+      {
+        name: "React.js",
+        image: reactjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Javascript",
+        image: javascript,
+      },
+    ],
     live_url: "https://nft-ten-kohl.vercel.app/",
     git_link: "https://github.com/Dubby-Bantin/NFT",
   },
@@ -90,7 +177,20 @@ const projects = [
     title: "Bank Site",
     desc: "A secure and efficient bank landing page application featuring account management, transactions, and more.",
     img: hoobank,
-    iconLists: [reactjs, tailwind, javascript],
+    iconLists: [
+      {
+        name: "React.js",
+        image: reactjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Javascript",
+        image: javascript,
+      },
+    ],
     live_url: "https://hoo-bank-lilac.vercel.app/",
     git_link: "https://github.com/Dubby-Bantin/HOO__BANK",
   },
@@ -98,7 +198,20 @@ const projects = [
     title: "TipVault",
     desc: "A platform for sharing and discovering programming tips categorized by language. Built with React and TypeScript.",
     img: tipvault,
-    iconLists: [reactjs, tailwind, typescript],
+    iconLists: [
+      {
+        name: "React.js",
+        image: reactjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Javascript",
+        image: javascript,
+      },
+    ],
     live_url: "https://tipvault.vercel.app/",
     git_link: "https://github.com/Dubby-Bantin/tipvault",
   },
@@ -139,16 +252,13 @@ const approachSteps = [
 
 const socialMediaIcons = [
   {
-    id: 1,
     Icon: FaGithub,
     path: "https://github.com/Dubby-Bantin?tab=repositories",
   },
   {
-    id: 2,
     Icon: FaWhatsapp,
   },
   {
-    id: 3,
     Icon: FaLinkedin,
     path: "https://www.linkedin.com/in/chidubem-desmond-b256a1353/",
   },
