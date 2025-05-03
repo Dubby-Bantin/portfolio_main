@@ -16,6 +16,8 @@ import lectra from "../../public/images/projects/lectra.png";
 import vista from "../../public/images/projects/vista.png";
 import nps from "../../public/images/projects/nps_usa.png";
 import asta from "../../public/images/projects/asta.png";
+import tgl from "../../public/images/projects/tgl.png";
+import novel from "../../public/images/projects/novel.png";
 import abamba from "../../public/images/projects/abamba.png";
 
 import javascript from "../../public/images/tech/javascript.png";
@@ -108,12 +110,12 @@ const projects = [
     live_url: "#still under constrution",
   },
   {
-    title: "ASTA USA",
-    desc: "A  top-tier advanced security training academy company website",
-    img: asta,
+    title: "Logistics site",
+    desc: "A modern, responsive logistics company website featuring dynamic service showcases.",
+    img: tgl,
     iconLists: [
       {
-        name: "Nextjs",
+        name: "Next.js",
         image: nextjs,
       },
       {
@@ -125,7 +127,28 @@ const projects = [
         image: typescript,
       },
     ],
-    live_url: "https://advss-training-mbdz.vercel.app/",
+    live_url: "https://target-ochre.vercel.app/",
+  },
+  {
+    title: "A Book publishing site",
+    desc: "A captivating journey through time and imagination that redefines what it means to be truly connected in a world of novels.",
+    img: novel,
+    completed: false,
+    iconLists: [
+      {
+        name: "Next.js",
+        image: nextjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Typescript",
+        image: typescript,
+      },
+    ],
+    live_url: "https://target-ochre.vercel.app/",
   },
   {
     title: "Decor Vista",
@@ -152,6 +175,28 @@ const projects = [
     live_url: "https://decor-vista-three.vercel.app/",
     git_link: "https://github.com/Dubby-Bantin/lectra",
   },
+
+  {
+    title: "ASTA USA",
+    desc: "A  top-tier advanced security training academy company website",
+    img: asta,
+    iconLists: [
+      {
+        name: "Nextjs",
+        image: nextjs,
+      },
+      {
+        name: "Tailwind",
+        image: tailwind,
+      },
+      {
+        name: "Typescript",
+        image: typescript,
+      },
+    ],
+    live_url: "https://advss-training-mbdz.vercel.app/",
+  },
+
   {
     title: "NFT Site",
     desc: "Explore and manage NFTs with a sleek and user-friendly interface. Built with the latest web technologies.",

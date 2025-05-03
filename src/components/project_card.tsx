@@ -99,13 +99,15 @@ const ProjectCard = ({
         )}
 
         <div className="flex items-center gap-2">
-          <Link
-            href={live_url}
-            target="_blank"
-            className="text-right text-transparent font-heading font-bold bg-clip-text bg-gradient-to-t from-indigo-900 via-blue-500 to-neutral-200 bg-opacity-60"
-          >
-            Check Live Site
-          </Link>
+          {completed === undefined && (
+            <Link
+              href={live_url}
+              target="_blank"
+              className="text-right text-transparent font-heading font-bold bg-clip-text bg-gradient-to-t from-indigo-900 via-blue-500 to-neutral-200 bg-opacity-60"
+            >
+              Check Live Site
+            </Link>
+          )}
           <FaArrowTrendUp className="text-blue-500 text-sm" />
         </div>
       </div>
