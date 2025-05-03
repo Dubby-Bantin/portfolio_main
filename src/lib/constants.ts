@@ -252,13 +252,16 @@ const approachSteps = [
 
 const socialMediaIcons = [
   {
+    id: 1,
     Icon: FaGithub,
     path: "https://github.com/Dubby-Bantin?tab=repositories",
   },
   {
+    id: 2,
     Icon: FaWhatsapp,
   },
   {
+    id: 3,
     Icon: FaLinkedin,
     path: "https://www.linkedin.com/in/chidubem-desmond-b256a1353/",
   },
