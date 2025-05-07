@@ -4,10 +4,10 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
-        userAgent: "Googlebot",
-        allow: "*",
+        userAgent: "*",
+        allow: "/",
       },
     ],
-    sitemap: "https://www.npssusa.com/sitemap.xml",
+    sitemap: "https://cyberdezrealm.com/sitemap.xml",
   };
 }
