@@ -38,6 +38,7 @@ const projects = [
     title: "Lectra",
     desc: "A multilingual e-learning platform",
     img: lectra,
+    onSale: true,
     iconLists: [
       {
         name: "Nextjs",
@@ -133,6 +134,7 @@ const projects = [
     title: "A Book publishing site",
     desc: "A captivating journey through time and imagination that redefines what it means to be truly connected in a world of novels.",
     img: novel,
+    onSale: true,
     completed: false,
     iconLists: [
       {
@@ -194,6 +196,7 @@ const projects = [
     title: "Decor Vista",
     desc: "A Interior design Site",
     img: vista,
+    onSale: true,
     iconLists: [
       {
         name: "Nextjs",
@@ -241,6 +244,7 @@ const projects = [
     title: "Bank Site",
     desc: "A secure and efficient bank landing page application featuring account management, transactions, and more.",
     img: hoobank,
+    onSale: true,
     iconLists: [
       {
         name: "React.js",
@@ -262,6 +266,7 @@ const projects = [
     title: "TipVault",
     desc: "A platform for sharing and discovering programming tips categorized by language. Built with React and TypeScript.",
     img: tipvault,
+    onSale: true,
     iconLists: [
       {
         name: "React.js",

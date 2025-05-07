@@ -23,6 +23,7 @@ interface ProjectCardProps {
   )[];
   live_url: string;
   git_link?: string;
+  onSale?: boolean;
 }
 const ProjectCard = ({
   completed,
@@ -32,9 +33,10 @@ const ProjectCard = ({
   iconLists,
   live_url,
   git_link,
+  onSale,
 }: ProjectCardProps) => {
   return (
-    <div className="bg-gradient-to-r from-[#0C0E23]  rounded-lg p-6 text-white shadow-lg max-w-[26rem] mx-auto max-h-max">
+    <div className="relative bg-gradient-to-r from-[#0C0E23]  rounded-lg p-6 text-white shadow-lg max-w-[26rem] mx-auto max-h-max">
       <div className="bg-gradient-to-r from-[#0C0E23] rounded-lg overflow-clip">
         <Image
           src={img}
@@ -57,31 +59,38 @@ const ProjectCard = ({
         </div>
         <p className="mt-2 text-sm text-gray-300 font-text">{desc}</p>
       </div>
-      <div className="mt-4 flex items-center">
-        {iconLists?.map(
-          (icon, i) =>
-            icon && (
-              <TooltipProvider key={i}>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    {/* <Button variant="ghost"> */}
-                    <div className="p-2 rounded-full bg-gradient-to-r from-[#0C0E23] to-[#050112] -mr-2">
-                      <Image
-                        src={icon.image}
-                        alt="Tech Stack 1"
-                        width={22}
-                        height={22}
-                        className="rounded-full"
-                      />
-                    </div>
-                    {/* </Button> */}
-                  </TooltipTrigger>
-                  <TooltipContent>
-                    <p>{icon.name}</p>
-                  </TooltipContent>
-                </Tooltip>
-              </TooltipProvider>
-            )
+      <div className="flex items-center justify-between w-full">
+        <div className="mt-4 flex items-center">
+          {iconLists?.map(
+            (icon, i) =>
+              icon && (
+                <TooltipProvider key={i}>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <div className="p-2 rounded-full bg-gradient-to-r from-[#0C0E23] to-[#050112] -mr-2">
+                        <Image
+                          src={icon.image}
+                          alt="Tech Stack 1"
+                          width={22}
+                          height={22}
+                          className="rounded-full"
+                        />
+                      </div>
+                      {/* </Button> */}
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>{icon.name}</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
+              )
+          )}
+        </div>
+
+        {onSale && (
+          <div className=" py-1.5 px-3 rounded-lg text-xs font-medium  bg-blue-900/20 backdrop-blur-sm border border-blue-400/30 text-blue-100 shadow-sm shadow-blue-900/30 hover:bg-blue-900/30 transition-all duration-200">
+            on-sale
+          </div>
         )}
       </div>
       <div className="flex items-center justify-between mt-4 ">
