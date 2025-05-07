@@ -102,10 +102,12 @@ const Contact = () => {
           </p>
           <div className="space-y-2">
             <p className="text-gray-600">
-              <strong>Email:</strong> cyberdez10@gmail.com
+              <strong>Email:</strong>
+              <a href="mailto:cyberdez10@gmail.com">cyberdez10@gmail.com</a>
             </p>
             <p className="text-gray-600">
-              <strong>Phone:</strong> +1 404-839-4533
+              <strong>Phone:</strong>{" "}
+              <a href="tel:+14048394533">+1 404-839-4533</a>
             </p>
           </div>
 
