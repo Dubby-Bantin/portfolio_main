@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     siteName: "CyberDezRealm",
   },
   verification: {
-    google: "NMwQ9Im0c3GpjO7EFv7cBgl3FLvhsfm7O49SOVWlG4",
+    google: "NMwQ9Im0c3GpjO7EFv7cBgl3FLvhsfm7O49SOVWlG4s",
   },
 };
 
