@@ -5,7 +5,6 @@ import {
   FaProjectDiagram,
   FaRocket,
   FaGithub,
-  FaWhatsapp,
   FaLinkedin,
 } from "react-icons/fa";
 
@@ -321,10 +320,7 @@ const socialMediaIcons = [
     Icon: FaGithub,
     path: "https://github.com/Dubby-Bantin?tab=repositories",
   },
-  {
-    id: 2,
-    Icon: FaWhatsapp,
-  },
+
   {
     id: 3,
     Icon: FaLinkedin,

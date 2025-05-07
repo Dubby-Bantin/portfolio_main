@@ -1,4 +1,5 @@
 import { socialMediaIcons } from "@/lib/constants";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -10,13 +11,14 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
-          {socialMediaIcons.map(({ id, Icon }) => (
-            <div
+          {socialMediaIcons.map(({ id, Icon, path }) => (
+            <Link
+              href={path}
               key={id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center bg-gradient-to-r from-[#0C0E23] to-[#050112] bg-black-200 rounded-lg "
             >
               <Icon />
-            </div>
+            </Link>
           ))}
         </div>
       </div>
