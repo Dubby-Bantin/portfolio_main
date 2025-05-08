@@ -7,13 +7,13 @@ import WorkApproach from "@/components/work_approach";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-background dark">
       <Banner />
       {/* <About /> */}
       <WorkApproach />
       <Projects />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
