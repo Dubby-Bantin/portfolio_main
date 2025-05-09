@@ -37,7 +37,7 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <div className="relative bg-gradient-to-r from-[#0C0E23]  rounded-lg p-6 text-white shadow-lg max-w-[26rem] mx-auto max-h-max">
-      <div className="bg-gradient-to-r from-[#0C0E23] rounded-lg overflow-clip">
+      <Link href={live_url} className="bg-gradient-to-r from-[#0C0E23] rounded-lg overflow-clip">
         <Image
           src={img}
           alt={title}
@@ -45,7 +45,7 @@ const ProjectCard = ({
           width={400}
           height={400}
         />
-      </div>
+      </Link>
       <div className="mt-4">
         <div className="flex justify-between items-center w-full">
           <h3 className="text-lg font-semibold font-heading text-transparent  bg-clip-text bg-gradient-to-t from-indigo-900 via-blue-500 to-neutral-200 bg-opacity-60">
